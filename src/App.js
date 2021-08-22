@@ -4,6 +4,7 @@ import Color from './components/Color';
 import FontText from './components/FontText';
 import HoverFocus from './components/HoverFocus';
 import MarginPadding from './components/Marginpadding';
+import Opacity from './components/Opacity';
 import WidthHeight from './components/WidthHeight';
 
 function App() {
@@ -14,7 +15,8 @@ function App() {
       {/* <WidthHeight /> */}
       {/* <FontText /> */}
       {/* <Color /> */}
-      <HoverFocus />
+      {/* <HoverFocus /> */}
+      <Opacity />
     </>
   );
 }
