@@ -1,4 +1,5 @@
 import './App.css';
+import BorderDivideRoundedRing from './components/BorderDivideRoundedRing';
 import Button from './components/Button';
 import Color from './components/Color';
 import FontText from './components/FontText';
@@ -16,7 +17,8 @@ function App() {
       {/* <FontText /> */}
       {/* <Color /> */}
       {/* <HoverFocus /> */}
-      <Opacity />
+      {/* <Opacity /> */}
+      <BorderDivideRoundedRing />
     </>
   );
 }
