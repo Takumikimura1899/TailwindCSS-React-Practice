@@ -4,6 +4,7 @@ import Button from './components/Button';
 import Color from './components/Color';
 import FontText from './components/FontText';
 import HoverFocus from './components/HoverFocus';
+import ImgBackgroundImg from './components/ImgBackgroundImg';
 import MarginPadding from './components/Marginpadding';
 import Opacity from './components/Opacity';
 import WidthHeight from './components/WidthHeight';
@@ -18,7 +19,8 @@ function App() {
       {/* <Color /> */}
       {/* <HoverFocus /> */}
       {/* <Opacity /> */}
-      <BorderDivideRoundedRing />
+      {/* <BorderDivideRoundedRing /> */}
+      <ImgBackgroundImg />
     </>
   );
 }
