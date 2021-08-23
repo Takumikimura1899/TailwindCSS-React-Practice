@@ -2,6 +2,7 @@ import './App.css';
 import BorderDivideRoundedRing from './components/BorderDivideRoundedRing';
 import Button from './components/Button';
 import Color from './components/Color';
+import Container from './components/Container';
 import Display from './components/Display';
 import Flex from './components/Flex';
 import FontText from './components/FontText';
@@ -37,7 +38,8 @@ function App() {
       {/* <Responsive /> */}
       {/* <Position /> */}
       {/* <Overflow /> */}
-      <Visibility />
+      {/* <Visibility /> */}
+      <Container />
     </>
   );
 }
