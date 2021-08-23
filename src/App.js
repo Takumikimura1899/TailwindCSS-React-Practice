@@ -6,6 +6,7 @@ import Display from './components/Display';
 import Flex from './components/Flex';
 import FontText from './components/FontText';
 import Grid from './components/Grid';
+import GridFooter from './components/GridFooter';
 import HoverFocus from './components/HoverFocus';
 import ImgBackgroundImg from './components/ImgBackgroundImg';
 import MarginPadding from './components/Marginpadding';
@@ -28,7 +29,7 @@ function App() {
       {/* <Shadow /> */}
       {/* <Display /> */}
       {/* <Flex /> */}
-      <Grid />
+      <GridFooter />
     </>
   );
 }
