@@ -11,6 +11,7 @@ import HoverFocus from './components/HoverFocus';
 import ImgBackgroundImg from './components/ImgBackgroundImg';
 import MarginPadding from './components/Marginpadding';
 import Opacity from './components/Opacity';
+import Overflow from './components/Overflow';
 import Position from './components/Position';
 import Responsive from './components/Responsive';
 import Shadow from './components/Shadow';
@@ -33,7 +34,8 @@ function App() {
       {/* <Flex /> */}
       {/* <GridFooter /> */}
       {/* <Responsive /> */}
-      <Position />
+      {/* <Position /> */}
+      <Overflow />
     </>
   );
 }
