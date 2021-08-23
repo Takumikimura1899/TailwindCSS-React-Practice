@@ -5,6 +5,7 @@ import Color from './components/Color';
 import Display from './components/Display';
 import Flex from './components/Flex';
 import FontText from './components/FontText';
+import Grid from './components/Grid';
 import HoverFocus from './components/HoverFocus';
 import ImgBackgroundImg from './components/ImgBackgroundImg';
 import MarginPadding from './components/Marginpadding';
@@ -26,7 +27,8 @@ function App() {
       {/* <ImgBackgroundImg /> */}
       {/* <Shadow /> */}
       {/* <Display /> */}
-      <Flex />
+      {/* <Flex /> */}
+      <Grid />
     </>
   );
 }
