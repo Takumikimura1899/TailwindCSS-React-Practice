@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from '../images/img1.jpg';
+import Image from '../../images/img1.jpg';
 
 const Overflow = () => {
   return (
