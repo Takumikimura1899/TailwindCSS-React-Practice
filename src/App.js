@@ -15,6 +15,7 @@ import Overflow from './components/Overflow';
 import Position from './components/Position';
 import Responsive from './components/Responsive';
 import Shadow from './components/Shadow';
+import Visibility from './components/Visibility';
 import WidthHeight from './components/WidthHeight';
 
 function App() {
@@ -35,7 +36,8 @@ function App() {
       {/* <GridFooter /> */}
       {/* <Responsive /> */}
       {/* <Position /> */}
-      <Overflow />
+      {/* <Overflow /> */}
+      <Visibility />
     </>
   );
 }
