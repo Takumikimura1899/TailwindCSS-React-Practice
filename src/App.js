@@ -21,6 +21,7 @@ import WidthHeight from './components/basic/WidthHeight';
 import HeroIcons from './components/Design/HeroIcons';
 import FlexBoxLayouts from './components/Design/FlexBoxLayouts';
 import Buttons from './components/Design/Buttons';
+import Cards from './components/Design/Cards';
 
 function App() {
   return (
@@ -45,7 +46,8 @@ function App() {
       {/* <Container /> */}
       {/* <HeroIcons /> */}
       {/* <FlexBoxLayouts /> */}
-      <Buttons />
+      {/* <Buttons /> */}
+      <Cards />
     </>
   );
 }
