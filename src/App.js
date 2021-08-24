@@ -20,6 +20,7 @@ import Visibility from './components/layout/Visibility';
 import WidthHeight from './components/basic/WidthHeight';
 import HeroIcons from './components/Design/HeroIcons';
 import FlexBoxLayouts from './components/Design/FlexBoxLayouts';
+import Buttons from './components/Design/Buttons';
 
 function App() {
   return (
@@ -43,7 +44,8 @@ function App() {
       {/* <Visibility /> */}
       {/* <Container /> */}
       {/* <HeroIcons /> */}
-      <FlexBoxLayouts />
+      {/* <FlexBoxLayouts /> */}
+      <Buttons />
     </>
   );
 }
