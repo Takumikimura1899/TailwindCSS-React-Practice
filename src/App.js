@@ -19,6 +19,7 @@ import Shadow from './components/basic/Shadow';
 import Visibility from './components/layout/Visibility';
 import WidthHeight from './components/basic/WidthHeight';
 import HeroIcons from './components/Design/HeroIcons';
+import FlexBoxLayouts from './components/Design/FlexBoxLayouts';
 
 function App() {
   return (
@@ -41,7 +42,8 @@ function App() {
       {/* <Overflow /> */}
       {/* <Visibility /> */}
       {/* <Container /> */}
-      <HeroIcons />
+      {/* <HeroIcons /> */}
+      <FlexBoxLayouts />
     </>
   );
 }
