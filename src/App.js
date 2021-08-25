@@ -23,6 +23,7 @@ import FlexBoxLayouts from './components/Design/FlexBoxLayouts';
 import Buttons from './components/Design/Buttons';
 import Cards from './components/Design/Cards';
 import Forms from './components/Design/Forms';
+import Gradation from './components/animation/Gradation';
 
 function App() {
   return (
@@ -49,7 +50,8 @@ function App() {
       {/* <FlexBoxLayouts /> */}
       {/* <Buttons /> */}
       {/* <Cards /> */}
-      <Forms />
+      {/* <Forms /> */}
+      <Gradation />
     </>
   );
 }
