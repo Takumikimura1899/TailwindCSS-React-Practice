@@ -24,6 +24,7 @@ import Buttons from './components/Design/Buttons';
 import Cards from './components/Design/Cards';
 import Forms from './components/Design/Forms';
 import Gradation from './components/animation/Gradation';
+import Transitions from './components/animation/Transitions';
 
 function App() {
   return (
@@ -51,7 +52,8 @@ function App() {
       {/* <Buttons /> */}
       {/* <Cards /> */}
       {/* <Forms /> */}
-      <Gradation />
+      {/* <Gradation /> */}
+      <Transitions />
     </>
   );
 }
