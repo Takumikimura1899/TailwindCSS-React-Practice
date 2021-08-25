@@ -25,6 +25,7 @@ import Cards from './components/Design/Cards';
 import Forms from './components/Design/Forms';
 import Gradation from './components/animation/Gradation';
 import Transitions from './components/animation/Transitions';
+import Transform from './components/animation/Transform';
 
 function App() {
   return (
@@ -53,7 +54,8 @@ function App() {
       {/* <Cards /> */}
       {/* <Forms /> */}
       {/* <Gradation /> */}
-      <Transitions />
+      {/* <Transitions /> */}
+      <Transform />
     </>
   );
 }
