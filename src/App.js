@@ -10,7 +10,7 @@ import Grid from './components/layout/Grid';
 import GridFooter from './components/layout/GridFooter';
 import HoverFocus from './components/basic/HoverFocus';
 import ImgBackgroundImg from './components/basic/ImgBackgroundImg';
-import MarginPadding from './components/basic/Marginpadding';
+import MarginPadding from './components/basic/MarginPadding';
 import Opacity from './components/layout/Opacity';
 import Overflow from './components/layout/Overflow';
 import Position from './components/layout/Position';
@@ -26,6 +26,7 @@ import Forms from './components/Design/Forms';
 import Gradation from './components/animation/Gradation';
 import Transitions from './components/animation/Transitions';
 import Transform from './components/animation/Transform';
+import Animation from './components/animation/Animation';
 
 function App() {
   return (
@@ -55,7 +56,8 @@ function App() {
       {/* <Forms /> */}
       {/* <Gradation /> */}
       {/* <Transitions /> */}
-      <Transform />
+      {/* <Transform /> */}
+      <Animation />
     </>
   );
 }
