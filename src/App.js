@@ -57,7 +57,12 @@ function App() {
       {/* <Gradation /> */}
       {/* <Transitions /> */}
       {/* <Transform /> */}
-      <Animation />
+      {/* <Animation /> */}
+      <p>@applyのテスト</p>
+      <button className='btn'>applyで適用</button>
+      <p>@layerのテスト</p>
+      <h1>中央になっていればOK</h1>
+      <h2>中央になっていればOK</h2>
     </>
   );
 }
