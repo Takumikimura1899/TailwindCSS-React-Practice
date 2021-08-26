@@ -27,6 +27,7 @@ import Gradation from './components/animation/Gradation';
 import Transitions from './components/animation/Transitions';
 import Transform from './components/animation/Transform';
 import Animation from './components/animation/Animation';
+import Pages from './components/Practice/Pages';
 
 function App() {
   return (
@@ -58,11 +59,12 @@ function App() {
       {/* <Transitions /> */}
       {/* <Transform /> */}
       {/* <Animation /> */}
-      <p>@applyのテスト</p>
+      {/* <p>@applyのテスト</p>
       <button className='btn'>applyで適用</button>
       <p>@layerのテスト</p>
       <h1>中央になっていればOK</h1>
-      <h2>中央になっていればOK</h2>
+      <h2>中央になっていればOK</h2> */}
+      <Pages />
     </>
   );
 }
