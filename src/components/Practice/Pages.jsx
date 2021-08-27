@@ -1,5 +1,6 @@
 import React from 'react';
 import Form from './Form';
+import ItemIndex from './ItemIndex';
 import Navbar from './Navber';
 import Table from './Table';
 import Template from './Template';
@@ -15,6 +16,7 @@ const Pages = () => {
         </Template>
         <Table />
         <Form />
+        <ItemIndex />
       </div>
     </>
   );
